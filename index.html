@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#090c12" />
+    <link rel="icon" href="data:," />
+    <title>WiFi Field | Signal Intensity Visualization</title>
+  </head>
+  <body>
+    <canvas id="app" aria-label="WiFi Field interactive simulation" tabindex="0"></canvas>
+    <div id="status" role="status">Loading WiFi Field…</div>
+    <input id="wall-file" type="file" accept="image/png,image/jpeg,image/bmp,image/webp,image/gif,image/tiff,.tif,.tiff" hidden />
+    <script type="module" src="/web/main.ts"></script>
+  </body>
+</html>

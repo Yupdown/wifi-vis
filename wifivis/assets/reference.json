@@ -1,0 +1,13 @@
+{
+  "source": "bwM76wQLJI7WbsrpKUXgAsbXETzsuL7zwmhsuv4LI0Y.mp4",
+  "frames": 96,
+  "crop_xyxy": [
+    12,
+    28,
+    180,
+    565
+  ],
+  "palette": "256 empirical RGB samples, ordered by spectral color path; missing bins interpolated",
+  "walls": "Achromatic pixels present in more than 80% of video frames",
+  "note": "The compressed video does not expose the original numeric colormap or simulation parameters."
+}

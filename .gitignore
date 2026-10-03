@@ -1,0 +1,48 @@
+# Node.js, Vite and TypeScript
+node_modules/
+/dist/
+.vite/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Test reports and coverage
+/test-results/
+/playwright-report/
+/blob-report/
+/coverage/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local reference material, exports and desktop UI state
+# Keep bundled assets in public/ and wifivis/assets/, and web-tests/fixtures/ tracked.
+/artifacts/
+/out/
+imgui.ini
+
+# Local environment configuration (keep example files)
+.env
+.env.*
+!.env.example
+!.env.*.example
+!.env.sample
+
+# Editor temporary files and OS metadata
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini

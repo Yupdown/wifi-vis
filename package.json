@@ -1,0 +1,22 @@
+{
+  "name": "wifi-field-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "playwright test"
+  },
+  "dependencies": {
+    "@mori2003/jsimgui": "0.14.0",
+    "gifenc": "1.0.3",
+    "utif": "^3.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "typescript": "~5.9.3",
+    "vite": "^7.1.0"
+  }
+}

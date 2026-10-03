@@ -1,0 +1,7 @@
+:root { color-scheme: dark; font-family: system-ui, sans-serif; background: #090c12; color: #e6f0fa; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+canvas#app { display: block; width: 100vw; height: 100dvh; min-width: 760px; min-height: 680px; outline: none; touch-action: none; }
+#status { position: fixed; inset: 0; display: grid; place-content: center; padding: 32px; background: #090c12; white-space: pre-wrap; line-height: 1.6; }
+#status[hidden] { display: none; }
+a { color: #65ddd4; }
